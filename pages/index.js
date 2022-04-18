@@ -69,7 +69,7 @@ export default function Home() {
           </div>
 
           {/* Button: to trigger text extraction using Cloudinary's OCR */}
-          <div className="w-full col-span-3 md:order-last">
+          <div className="w-max col-span-3 justify-self-end md:justify-self-start md:order-last">
             <button
               type="submit"
               className="bg-green-500 text-white rounded-lg shadow-md p-3"
