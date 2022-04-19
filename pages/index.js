@@ -96,6 +96,7 @@ export default function Home() {
   );
 }
 
+// ========= LOADING SVG COMPONENT =========
 const LoadingSVG = () => {
   return (
     <svg
