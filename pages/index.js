@@ -52,8 +52,10 @@ export default function Home() {
                 className="object-contain h-full w-full"
               />
             ) : (
-              <span className="self-center flex flex-col space-y-3">
-                <p>Click on the blue button below to add an image</p>
+              <span className="self-center flex flex-col space-y-3 p-5">
+                <p className="italic">
+                  Click on the blue button below to add an image
+                </p>
                 <div className="animate-bounce">
                   <ArrowSVG />
                 </div>
